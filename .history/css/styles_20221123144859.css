@@ -1,0 +1,14 @@
+header{
+    display: inline-flex;
+}
+
+.header-top{
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    display:inline-block;
+    font-weight: 400;
+    color:;
+}

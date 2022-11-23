@@ -1,0 +1,18 @@
+.header-top{
+    display: inline-flex;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    color:;
+    margin-right:var(--size-40);
+}
+
+.header-top input[type=text]{
+    border-radius: 30px;
+    border-right: none;
+    line-height: 2;
+    margin-right: 0; 
+}
