@@ -1,0 +1,26 @@
+.header-top{
+    display: inline-flex;
+    align-items: center;
+}
+
+.header-top input[type=text]{
+    border-radius: 30px 0 0 30px;
+    border-right: none;
+    line-height: 2;
+    margin-right: 0; 
+}
+
+.header-top h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    margin-right:40px;
+}
+
+.btn-wrapper{
+    display: inline-flex;
+    border: 2px solid black;
+    margin: -18px;
+    padding: 3px 8px;
+    border-left: none;
+    border-radius: 0 30px 30px 0;
+}
