@@ -43,10 +43,7 @@ header{ background-color: var(--bg-all); }
     background-color: var(--search-bar);
 }
 
-.btn-wrapper button{ 
-    color: var(--header-icon);
-    margin-right: var(--size-10); 
-}
+.btn-wrapper button{ color: var(--header-icon); }
 
 button{
     border: none;
