@@ -6,7 +6,7 @@
     --nav-links:#969ba1;
     --search-results:#83abea;
     --results-description:#b8bcc0;
-    --header-icon:#9aa0a6;
+    
 
     --size-10:0.625rem;
     --size-14:0.875rem;
@@ -27,9 +27,9 @@ body{
     font-size:0.875rem;
     line-height: 1.6;
     letter-spacing: 0;
+    color: var();
     margin:0;
     padding:0;
-    background-color: var(--bg-all);
 }
 *,
 ::after,

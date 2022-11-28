@@ -60,10 +60,7 @@ button{
     display: flex;
 }
 
-.header-top-right button{ 
-    color: var(--white); 
-    margin-right: var(--size-10);
-}
+.header-top-right button{ color: var(--white); }
 
 .header-top-right .pfp{
     width: 100%;

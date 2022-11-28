@@ -60,10 +60,7 @@ button{
     display: flex;
 }
 
-.header-top-right button{ 
-    color: var(--white); 
-    margin-right: var(--size-10);
-}
+.header-top-right button{ color: var(--white); }
 
 .header-top-right .pfp{
     width: 100%;
@@ -93,21 +90,4 @@ button{
     color: var(--nav-links);
 }
 
-.nav-link{ color: var(--nav-links);}
-
 .nav-link.tools{ margin-left: var(--size-50); }
-
-.nav-link i{
-    margin-right: var(--size-10);
-}
-
-.navbar-nav hr {
-    margin-bottom: -12px;
-    border: 2px solid var(--search-results);
-}
-
-hr{
-    margin-top: var(--size-10);
-    border: none;
-    border-top: 1px solid var(--results-description);
-}

@@ -60,10 +60,7 @@ button{
     display: flex;
 }
 
-.header-top-right button{ 
-    color: var(--white); 
-    margin-right: var(--size-10);
-}
+.header-top-right button{ color: var(--white); }
 
 .header-top-right .pfp{
     width: 100%;
@@ -101,7 +98,7 @@ button{
     margin-right: var(--size-10);
 }
 
-.navbar-nav hr {
+.nav-link hr {
     margin-bottom: -12px;
     border: 2px solid var(--search-results);
 }

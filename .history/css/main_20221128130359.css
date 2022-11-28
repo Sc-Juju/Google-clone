@@ -18,7 +18,7 @@ header{ background-color: var(--bg-all); }
     line-height: 2.5;
     margin-right: 0;
     padding: 2px 10px;
-    border: 1px solid var(--search-bar); 
+    border: 1px solid black; 
     border-right: none;
     width:75%;
     background-color: var(--search-bar);
@@ -33,15 +33,12 @@ header{ background-color: var(--bg-all); }
 
 .btn-wrapper{
     display: inline-flex;
-    border: 1px solid var(--search-bar);
+    border: 1px solid black;
     margin: -5px;
     padding: 10px 8px;
     border-left: none;
     border-radius: 0 24px 24px 0;
-    background-color: var(--search-bar);
 }
-
-.btn-wrapper button{ color: var(--header-icon); }
 
 button{
     border: none;
@@ -49,7 +46,7 @@ button{
 }
 
 .btn-wrapper .btn-wrapper-times{
-    border-right: 1px solid var(--header-icon);
+    border-right: 1px solid black;
     margin-right: 10px;
     padding-right: 10px;
 }
@@ -58,11 +55,6 @@ button{
     margin-left: auto;
     align-items: center;
     display: flex;
-}
-
-.header-top-right button{ 
-    color: var(--white); 
-    margin-right: var(--size-10);
 }
 
 .header-top-right .pfp{
@@ -90,24 +82,8 @@ button{
     font-weight: 600;
     text-transform: uppercase;
     line-height: 1.25rem;
-    color: var(--nav-links);
 }
-
-.nav-link{ color: var(--nav-links);}
 
 .nav-link.tools{ margin-left: var(--size-50); }
 
-.nav-link i{
-    margin-right: var(--size-10);
-}
-
-.navbar-nav hr {
-    margin-bottom: -12px;
-    border: 2px solid var(--search-results);
-}
-
-hr{
-    margin-top: var(--size-10);
-    border: none;
-    border-top: 1px solid var(--results-description);
-}
+body{ background-color: var(--bg-all);}
