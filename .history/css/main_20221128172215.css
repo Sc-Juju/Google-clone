@@ -1,7 +1,6 @@
 html{
     max-width:1280px;
     margin:0 auto;
-    font-family: 'Kumbh Sans', sans-serif;
 }
 
 header{ background-color: var(--bg-all); }
@@ -74,7 +73,7 @@ button{
 
 .header-top-right .pfp{
     width: 100%;
-    height: var(--size-30);
+    height: 20px;
     border-radius: 50%;
 }
 
@@ -124,59 +123,24 @@ hr{
     width: 50%;
 }
 
-.search-box h6{
-    font-size: var(--size-14);
-    margin-bottom: var(--size-10);
-}
-
 .search-box a{ color: var(--search-results);}
-
-.result-description p{ font-size: var(--size-10);}
-
-.result-description a{ font-size: var(--size-14);}
-
-.result-description h2{ margin-bottom: 0;}
 
 .pa-header{ display: inline-flex; }
 
 .pa-header h4{
     margin-right: var(--size-14);
     font-size: var(--size-14);
-    font-size: var(--size-18);
-    margin-top: var(--size-40);
-    margin-bottom: var(--size-20);
 }
 
 .pa-header a{
     font-size: var(--size-16);
-    margin-top: var(--size-20);
-    align-self: center;
+    margin-top: var(--size-16);
 }
 
 .answer{ 
     border-bottom: 1px solid var(--results-description); 
     display: flex;
-    font-size: var(--size-16);
-    padding-bottom: var(--size-10);
 }
 
 .answer :nth-child(2){ margin-left: auto;}
-
-.People-also-ask a,
-.answer a { color: var(--results-description);}
-
-.feedback{
-    display: flex;
-    margin-top: var(--size-10);
-}
-
-.feedback button{
-    float: right;
-    font-size: var(--size-10);
-    margin-top: var(--size-10);
-}
-
-.feedback hr{
-    width: 100%;
-    margin-top: var(--size-20);
-}
+.people-also-ask a { color: var(--results-description);}
