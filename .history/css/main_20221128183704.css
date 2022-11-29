@@ -191,12 +191,6 @@ hr{
     margin-left: 325px;
     font-size: var(--size-30);
     margin-right: var(--size-14);
-    margin-bottom: 0;
-}
-
-.footer-top a{
-    font-size: var(--size-16);
-    color: var(--nav-links);
 }
 
 .footer-link a{
@@ -206,14 +200,3 @@ hr{
     line-height: 1.25rem;
     color: var(--nav-links);
 }
-
-.footer-bottom{ display:flex ; }
-
-.footer-bottom ul{ margin-left: 350px; }
-
-.footer-bottom li{
-    font-size: var(--size-14);
-    margin-right: var(--size-10);
-}
-
-.footer-bottom li.next{ margin-left: var(--size-40); }

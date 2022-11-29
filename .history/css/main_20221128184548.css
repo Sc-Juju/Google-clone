@@ -209,11 +209,8 @@ hr{
 
 .footer-bottom{ display:flex ; }
 
-.footer-bottom ul{ margin-left: 350px; }
+.footer-bottom ul{ margin-left: 325px; }
 
 .footer-bottom li{
     font-size: var(--size-14);
-    margin-right: var(--size-10);
 }
-
-.footer-bottom li.next{ margin-left: var(--size-40); }
